@@ -1,0 +1,32 @@
+/* Google Fonts */
+/* Niconne */
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+}
+h1{
+    font-family: "Niconne",cursive;
+    font-size: 3rem;
+}
+.signed-up-section{
+    margin: 0 auto;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 30%;
+    margin: 0 auto;
+
+    background-color: gainsboro;
+}
+.signed-up-section button{
+    max-width: 30%;
+    align-self: center;
+
+    padding: 1rem 2rem;
+    margin: 5%;
+}

@@ -19,7 +19,6 @@
                     <input type="text" id="username" name="username" placeholder="Enter Username">
                 </div>
 
-
                 <div class="input-container">
                     <label for="firstname">First Name:</label>
                     <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
