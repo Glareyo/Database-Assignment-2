@@ -1,5 +1,6 @@
 <?php
 
+
 //var_dump($_SERVER["REQUEST_METHOD"]);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -7,6 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $userName = htmlspecialchars($_POST["username"]); //Changes data to be html entities, blocking actual code from going through.
     $firstName = htmlspecialchars($_POST["firstname"]);
     $lastName = htmlspecialchars($_POST["lastname"]);
+    $address = htmlspecialchars($_POST["useraddress"]);
+    $zipcode = htmlspecialchars($_POST["zipcode"]);
+    
 
     if (empty($firstName) || empty($lastName)){
         header("Location: ../index.php"); //Redirects user the moment it opens up.
@@ -22,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     echo"<br>";
     echo $lastName;
 
-    header("Location: ../signed-up/signed-up.php"); //Redirects user the moment it opens up.
+    header("Location: ../signed-up.php"); //Redirects user the moment it opens up.
 }
 else{
     header("Location: ../index.php"); //Redirects user the moment it opens up.

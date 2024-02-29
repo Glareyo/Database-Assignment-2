@@ -1,3 +1,11 @@
+<!-- Credit: Dani Krossing -->
+<!-- Provided a playlist of php tutorial videos -->
+<!-- Cameron Cintron -->
+<!-- Provided course materials from Application Design -->
+
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,40 +19,14 @@
 <body>
     <main>
         <div class="container">
-            <form class="sign-up-container" action="data/account.php" method="post">
+            <form class="sign-up-container">
                 <h1>Hello!</h1>
-
-                <div class="input-container">
-                    <label for="username">Username:</label>
-                    <input type="text" id="username" name="username" placeholder="Enter Username">
-                </div>
-
-                <div class="input-container">
-                    <label for="firstname">First Name:</label>
-                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
-                </div>
+                <h2>Welcome to the Friend's Messaging System!</h2>
+                <br>
 
 
-                <div class="input-container">
-                    <label for="lastname">Last Name:</label>
-                    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
-                </div>
-
-
-                <div class="input-container">
-                    <label for="address">Address:</label>
-                    <input type="text" id="address" name="address" placeholder="Enter Address">
-                </div>
-
-
-                <div class="input-container">
-                    <label for="zipcode">Zipcode:</label>
-                    <input type="text" id="zipcode" name="zipcode" placeholder="Enter ZipCode">
-                </div>
-
-
-
-                <button type="submit">Sign Up!</button>
+                <a href="">Log In!</a>
+                <a href="sign-up.php">Sign Up!</a>
             </form>
         </div>
 

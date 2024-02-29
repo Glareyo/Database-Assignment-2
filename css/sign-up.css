@@ -21,19 +21,37 @@ body{
     background-color: gainsboro;
 }
 
+.input-container{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+
+
+    margin: 1% 5%;
+    padding: 0.5%;
+}
+
 .sign-up-container h1{
     margin: 5% 0;
     font-family: "Niconne",cursive;
     font-size: 3rem;
 }
 
-.sign-up-container a{
+.sign-up-container label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.sign-up-container input{
+    margin: 0 5% 5% 5%;
+    height: 2rem;
+}
+
+.sign-up-container button{
     max-width: 30%;
     align-self: center;
 
     padding: 1rem 2rem;
     margin: 5%;
-    background-color: gray;
-    color: red;
     /* height: 2rem; */
 }
