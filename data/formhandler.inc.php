@@ -11,21 +11,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //$userName = htmlspecialchars($_POST["username"]);
 
     $username = $_POST["username"];
+    $userpassword = $_POST["userpassword"];
     $firstname = $_POST["firstname"];
     $lastname = $_POST["lastname"];
     $useraddress = $_POST["useraddress"];
     $zipcode = $_POST["zipcode"];
 
+    if (empty($username) || empty($userpassword) || empty($firstname) || empty($lastname)
+     || empty($useraddress) || empty($zipcode)
+    ){
+        header("Location: ../sign-up.php"); //Redirects user the moment it opens up.
+        exit();
+    }
+
     try{
         //Used to access the database, in which dbh.inc.php has the code for.
         require_once "dbh.inc.php";
 
-        $query = "INSERT INTO users (username,firstname,lastname,useraddress,zipcode) VALUES
-        (?,?,?,?,?);";
+        $query = "INSERT INTO users (username,userpassword,firstname,lastname,useraddress,zipcode) VALUES
+        (?,?,?,?,?,?);";
 
         $stmt = $pdo->prepare($query);
 
-        $stmt->execute([$username,$firstname,$lastname, $useraddress, $zipcode]);
+        $stmt->execute([$username,$userpassword,$firstname,$lastname, $useraddress, $zipcode]);
 
         $pdo = null;
         $stmt = null;

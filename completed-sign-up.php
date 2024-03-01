@@ -32,7 +32,7 @@
         <section class="signed-up-section">
             <h1>Done!</h1>
             <h2>You are now signed up!</h2>
-            <a href="profile.php"><button>Log in</button></a>
+            <a href="log-in.php"><button>Log in</button></a>
         </section>
     </div>
 </body>

@@ -23,9 +23,7 @@
                 <h1>Hello!</h1>
                 <h2>Welcome to the Friend's Messaging System!</h2>
                 <br>
-
-
-                <a href="">Log In!</a>
+                <a href="log-in.php">Log In!</a>
                 <a href="sign-up.php">Sign Up!</a>
             </form>
         </div>

@@ -28,6 +28,11 @@
                 </div>
 
                 <div class="input-container">
+                    <label for="userpassword">Enter a Password:</label>
+                    <input type="text" id="userpassword" name="userpassword" placeholder="Enter Password">
+                </div>
+
+                <div class="input-container">
                     <label for="firstname">First Name:</label>
                     <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
                 </div>
@@ -50,7 +55,7 @@
                     <input type="text" id="zipcode" name="zipcode" placeholder="Enter ZipCode">
                 </div>
 
-
+                
 
                 <button type="submit">Sign Up!</button>
             </form>
