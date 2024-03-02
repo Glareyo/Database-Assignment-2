@@ -19,7 +19,7 @@ session_start();
     <div class="profile-container">
         <h1>Hello USERNAME</h1>
         <br>
-        <button>Edit</button>
+        <a href="edit-profile.php"><button>Edit</button></a>
         <br>
 
         <div class="information-container">

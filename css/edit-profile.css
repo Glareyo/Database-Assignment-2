@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.profile-container{
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 30%;
+    background-color: gainsboro;
+
+    text-align: center;
+}
+button{
+    max-width: 30%;
+    padding: 1rem 2rem;
+}
+
+.information-container{
+    border: 0.5rem solid;
+    max-width: 70%;
+    width: 100%;
+
+    margin: 0 auto;
+}
+
+.information-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom:  0.5rem solid;
+}
+.information-section:last-child{
+    border: none;
+}
+.information-section h3{
+    border-right: 0.5rem solid;
+    padding: 1rem;
+}
+.information-section input{
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}

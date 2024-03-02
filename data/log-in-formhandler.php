@@ -33,6 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         else{
             session_start();
             foreach( $results as $row )
+                $_SESSION["id"] = (string)$row["id"];
                 $_SESSION["username"] = (string)$row["username"];
                 $_SESSION["userpassword"] = (string)$row["userpassword"];
                 $_SESSION["firstname"] = (string)$row["firstname"];
