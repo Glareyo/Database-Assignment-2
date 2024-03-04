@@ -19,9 +19,12 @@
 <body>
     <main>
         <div class="container">
+
             <form class="sign-up-container" action="data/formhandler.inc.php" method="post">
                 <h1>Hello!</h1>
 
+            <a href="index.php" class="back-button">Go Back</a>
+                
                 <div class="input-container">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" placeholder="Enter Username">

@@ -1,8 +1,4 @@
 <?php
-
-
-//var_dump($_SERVER["REQUEST_METHOD"]);
-
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $userName = htmlspecialchars($_POST["username"]); //Changes data to be html entities, blocking actual code from going through.

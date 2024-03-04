@@ -22,7 +22,6 @@ session_start();
         <br>
 
         <form class="information-container" action="data/edit-profile-formhandler.php" method="post">
-            <button type="submit">Confirm</button>
 
 
             <section class="information-section">
@@ -54,6 +53,9 @@ session_start();
                 <h3>Password:</h3>
                 <input type="text" id="userpassword" name="userpassword" placeholder=<?php echo $_SESSION["userpassword"] ?>>
             </section>
+
+            <button type="submit">Click to CONFIRM</button>
+
         </form>
 
     </div>

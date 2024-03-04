@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    text-align: center;
 }
 .profile-container{
     margin: 0 auto;
@@ -12,10 +13,6 @@
     background-color: gainsboro;
 
     text-align: center;
-}
-button{
-    max-width: 30%;
-    padding: 1rem 2rem;
 }
 
 .information-container{
@@ -45,4 +42,11 @@ button{
     max-width: 100%;
     width: 100%;
     text-align: center;
+}
+button{
+    text-align: center;
+
+    padding: 1rem;
+    max-width: 100%;
+    width: 100%;
 }

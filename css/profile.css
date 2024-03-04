@@ -13,10 +13,7 @@
 
     text-align: center;
 }
-button{
-    max-width: 30%;
-    padding: 1rem 2rem;
-}
+
 
 .information-container{
     border: 0.5rem solid;
@@ -44,4 +41,30 @@ button{
 .information-section p{
     padding: 1rem;
     text-align: center;
+}
+button{
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+/* People / Friends CSS */
+.people-container{
+    max-width: 100%;
+    width: 100%;
+}
+.people-container p{
+    width: 50%;
+}
+.person-button-container button{
+    width: 100%;
+}
+
+.remove-friend-button{
+    background-color: red;
+}
+.add-friend-button{
+    background-color: green;
+}
+#delete-account-button{
+    background-color: red;
 }

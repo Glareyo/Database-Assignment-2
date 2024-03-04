@@ -1,22 +1,3 @@
-<?php
-
-
-// require_once "data/dbh.inc.php";
-
-// $query = "SELECT `username` FROM `users` WHERE ID=31;";
-
-// $stmt = $pdo->query($query);
-
-// $name = $stmt->execute();
-
-// echo $name;
-
-// $pdo = null;
-// $stmt = null;
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 

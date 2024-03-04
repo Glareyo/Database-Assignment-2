@@ -1,3 +1,7 @@
+<!-- Credit: Dani Krossing -->
+<!-- Provided a playlist of php tutorial videos -->
+<!-- https://www.youtube.com/watch?v=m52ljs78S24&list=PL0eyrZgxdwhwwQQZA79OzYwl5ewA7HQih -->
+
 <?php
 
 session_start();

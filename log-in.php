@@ -1,3 +1,7 @@
+<!-- Credit: Bheem Raj-->
+<!-- Provided a way to do a password and username error check -->
+<!-- https://stackoverflow.com/questions/29024361/php-wrong-username-password-how-to-echo-it-properly -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +16,14 @@
             <form class="sign-up-container" action="data/log-in-formhandler.php" method="post">
                 <h1>Logging In</h1>
 
+                <?php
+                if (isset($_GET["msg"]) && $_GET["msg"] == 'failed') {
+                echo "
+                <p class='wrong-info-popup'>Incorrect Username / Password</p>
+                "; 
+                }
+                ?>
+
                 <div class="input-container">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" placeholder="Enter Username">
@@ -23,6 +35,7 @@
                 </div>
 
                 <button type="submit">Log In!</button>
+                <a href="index.php" class="back-button">Go Back</a>
             </form>
         </div>
 

@@ -55,3 +55,17 @@ body{
     margin: 5%;
     /* height: 2rem; */
 }
+
+.back-button{
+    padding: 1rem;
+    background-color: gainsboro;
+    border: solid gray 0.5rem;
+    text-decoration: black;
+
+    max-width: 60%;
+    margin: 0 auto;
+}
+.back-button:hover{
+    background-color: gray;
+    border: solid black 0.5rem;
+}
